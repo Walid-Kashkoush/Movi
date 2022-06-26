@@ -1,0 +1,161 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+
+    background-color: #000000f2;
+}
+
+.min-header-nav{
+
+position: fixed;
+    top: 0;
+    left: 0px;
+    width: 60px;
+    height: 100vh;
+    z-index: 55555555;
+    background-color: #f8f6f6;
+    text-align: center;
+    transition: all 0.6s ease;
+z-index: 555555;
+margin-left: 0px;
+}
+
+
+
+
+
+.min-logo{
+padding: 25px 2px;
+width: 60px;
+
+}
+
+.min-logo img{
+height: 50px;
+
+}
+.phot{
+    vertical-align: middle;
+    border-style: none;
+  
+}
+.min-togeal-menu{
+
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: x-large;
+}
+
+.min-social-icon{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+}
+
+.fa-globe{
+
+padding-block: 25px;
+
+}
+
+
+.nav-tab-menu{
+
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 450px;
+    height: 100vh;
+    z-index: 55555555;
+    
+    /* background-color: #000; */
+    transform: translateX(-100%);
+    transition: all 0.6s ease;
+}
+
+.nav-social-item a{
+
+    color: #f9f6f6;
+    padding-left: 15px;
+    font-size: 14px;
+
+
+}
+
+a{
+text-decoration: none;
+
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded{
+
+    border-radius: 0.25rem
+}
+
+.position-relative{
+position: relative;
+overflow: hidden;
+
+}
+
+
+.layer{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    /* background-color: rgba(0, 0, 0,.5); */
+    text-align: center;
+ 
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+}
+.position-relative:hover  .layer{
+top: 0;
+
+}
+
+
+h1 h2 h3 h4 h5 h6{
+
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+
+}
+
+

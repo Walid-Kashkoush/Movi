@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container {
+        width: 80%;
+        margin: 15px auto;
+        padding: 0px 15px;
+    }
+
+h3{
+
+display: block;
+
+margin-left: 50px;
+font-family : arial;
+font-weight: bold;
+color: rgb(170, 170, 170);
+
+}
+
+header .container  {
+    color: rgb(170, 170, 170);
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+ 
+}
+
+
+.favorite{
+
+background-color: rgb(238, 238, 238);;
+text-align: center;
+border-style: none;
+padding: 30px;
+
+}
+p{
+font-weight: bold;
+color: black;
+font-family: arial;
+
+
+}
+.inpo{
+    width: 80%;
+border-radius: 1rem;
+font-size: 15px;
+border-style: solid;
+border-width: 1px;
+margin: auto;
+padding: 5px;
+border-color: rgb(221, 221, 221);
+
+}
+
+.btn-primary{
+    border-width: 1px;
+    border-style: solid;
+    
+    max-width: fit-content;
+
+
+}
+
+.btn{
+    font-size: 15px;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 10px 15px;
+    margin: 15px 5px;
+    border-radius: 5px
+    /* background-color: rgb(17, 103, 196);;
+
+    border-color: rgb(17, 103, 196); */
+}
+
+.vist{
+
+
+    background-color: rgb(238, 238, 238);;
+text-align: center;
+border-style: none;
+
+
+border-bottom: 1px solid rgb(153, 153, 153);
+}
+.colum
+
+.web{
+
+    background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255));
+    margin: 10px 0px;
+    padding: 20px;
+
+
+}
+
+.web h2 {
+width: 30%;
+color: #333;
+align-items: center;
+
+
+}
+
+.row{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.btn-danger {
+
+    background-color: rgb(145, 0, 4);
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(145, 0, 4);
+    border-image: initial;
+
+
+}
+.foter{
+    background-color: rgb(238, 238, 238);;
+
+
+}
+
+footer .container {
+    font-size: 14px;
+    padding: 20px;
+    border-top: 1px solid rgb(153, 153, 153);
+
+}
+
+
+
+footer p {
+    color: rgb(170, 170, 170);}
+
+    .web {
+        margin-bottom: 10px;
+        background-color: rgb(226 226 226);
+    }
